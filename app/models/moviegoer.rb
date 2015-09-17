@@ -1,4 +1,5 @@
 class Moviegoer < ActiveRecord::Base
+  acts_as_canhaz_subject
 	has_many :reviews
   attr_accessible :name, :provider, :uid
   def self.create_with_omniauth(auth)

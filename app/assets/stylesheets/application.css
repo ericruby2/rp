@@ -79,3 +79,4 @@ div.field_with_errors input{
   border: 2px double grey;
   background: wheat;
 }
+.nonvisible { display:none; }

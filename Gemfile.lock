@@ -89,6 +89,8 @@ GEM
       activesupport (= 3.2.16)
       bundler (~> 1.0)
       railties (= 3.2.16)
+    rails-canhaz (2.0.2)
+      activerecord (>= 3.1.0, < 5)
     railties (3.2.16)
       actionpack (= 3.2.16)
       activesupport (= 3.2.16)
@@ -133,6 +135,7 @@ DEPENDENCIES
   pg
   puma
   rails (= 3.2.16)
+  rails-canhaz
   sass-rails (~> 3.2.3)
   sequel
   uglifier (>= 1.0.3)

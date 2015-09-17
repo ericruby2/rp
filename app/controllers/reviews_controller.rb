@@ -14,13 +14,16 @@ class ReviewsController < ApplicationController
   public
   def new
     @review = @movie.reviews.build
+ #   debugger
+    
   end
   def create
     # since moviegoer_id is a protected attribute that won't get
     # assigned by the mass-assignment from params[:review], we set it
     # by using the << method on the association.  We could also
     # set it manually with review.moviegoer = @current_user.
-    @current_user.reviews << @movie.reviews.build(params[:review])
+    current_user.reviews << @movie.reviews.build(params[:review])
+    current_user.can!(:edit, @review)
     redirect_to movie_path(@movie)
   end
   def edit
@@ -29,8 +32,13 @@ class ReviewsController < ApplicationController
 		
   end
   def update
+    
     @review = Review.find params[:id]
-    if @review.update_attributes(params[:movie])
+#    debugger
+   if !(current_user.can?(:edit, @review))
+      flash[:notice] = "Review #{@review.id} for #{@review.movie.title} can only be updated by #{@review.moviegoer.name}."      
+      render 'edit' # 'edit' template can access @movie field values
+    elsif @review.update_attributes(params[:review])
       flash[:notice] = "Review #{@review.id} for #{@review.movie.title} from #{@review.moviegoer.name} succesfully updated."
       redirect_to movies_path
     else

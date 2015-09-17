@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150701102510) do
+ActiveRecord::Schema.define(:version => 20150917122631) do
+
+  create_table "can_haz_permissions", :force => true do |t|
+    t.integer "csubject_id"
+    t.string  "csubject_type"
+    t.integer "cobject_id"
+    t.string  "cobject_type"
+    t.string  "permission_name"
+  end
+
+  add_index "can_haz_permissions", ["cobject_id"], :name => "object_id_ix"
+  add_index "can_haz_permissions", ["csubject_id"], :name => "subject_id_ix"
 
   create_table "moviegoers", :force => true do |t|
     t.string   "name"

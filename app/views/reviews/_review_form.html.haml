@@ -7,8 +7,7 @@
 			- @review.errors.full_messages.each do |error|
 				%li= error
 
-= label :movie, :Movietitle
-= text_field :movie, :title,  :disabled=>true
+%h3 Movie:    #{@review.movie.title}
 
 
 =# hidden_field :review, :movie_id, :value => @movie.id
