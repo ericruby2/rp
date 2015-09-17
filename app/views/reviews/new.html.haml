@@ -1,0 +1,13 @@
+-# This file is in app/views/reviews/new.html.haml
+
+%h1 New Review for #{@movie.title}
+
+= form_tag movie_reviews_path(@movie) do
+	%label How many potatoes:
+	= label :review, :potatoes, 'Rating'
+	= text_field :review, :potatoes
+	= label :review, :comments, 'Comment'
+	= text_field :review, :comments
+
+	= submit_tag 'Create Review'
+

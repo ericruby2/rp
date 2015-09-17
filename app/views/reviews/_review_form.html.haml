@@ -1,0 +1,23 @@
+-# this is the form
+-# debugger
+- unless !@review || @review.errors.empty?
+	#warning
+		Errors prevented this review from being #{controller.action_name}d:
+		%ul
+			- @review.errors.full_messages.each do |error|
+				%li= error
+
+= label :movie, :Movietitle
+= text_field :movie, :title,  :disabled=>true
+
+
+=# hidden_field :review, :movie_id, :value => @movie.id
+
+
+= label :review, :potatoes, 'Rating'
+= text_field :review, :potatoes
+	
+= label :review, :comments, 'Comment'
+= text_field :review, :comments
+
+

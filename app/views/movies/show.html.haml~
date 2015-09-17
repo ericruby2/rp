@@ -1,0 +1,23 @@
+-# THis file is in app/views/movies/show.html.haml
+%h2 Details about #{@movie.title}
+
+%ul#details
+	%li
+		Rating:
+		= @movie.rating
+	%li
+		Release Date:
+		= @movie.release_date
+%h3 Description: 
+%p#description= @movie.description
+
+%h3 Reviews:
+=render :partial=>'review', :collection=>@reviews
+ 
+
+= link_to "Edit info" , edit_movie_path(@movie)
+= link_to "Add Review" , new_movie_reviews_path(@movie)
+= link_to "Remove Movie" , movie_path(@movie), :method => :delete
+= link_to "Back to movie list", movies_path
+
+

@@ -1,0 +1,8 @@
+- # Single row of all moviegoers table
+%tr
+	%td= moviegoer.provider
+	%td= moviegoer.uid
+	%td= moviegoer.name
+	%td= link_to "More about #{moviegoer.name}", moviegoer_path(moviegoer)
+	%td= link_to "Edit info" , edit_moviegoer_path(moviegoer)
+	%td= link_to "Remove Moviegoer" , moviegoer_path(moviegoer), :method => :delete

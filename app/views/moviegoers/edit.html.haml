@@ -1,0 +1,13 @@
+-# This file is in app/views/moviegoers/edit.html.haml
+
+%h2 Edit Moviegoer
+
+= form_tag moviegoer_path(@moviegoer), :method => :put do
+
+	= render :partial => 'moviegoer_form'
+	
+	= submit_tag 'Update Moviegoer Info'
+	
+-#= link_to "Back to moviegoer list", moviegoers_path
+
+

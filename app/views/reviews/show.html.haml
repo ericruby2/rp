@@ -1,0 +1,16 @@
+-# THis file is in app/views/reviews/show.html.haml
+%h2 Reviews about #{@movie.title}
+
+
+%table#review
+	%thead
+		%tr
+			%th Rating
+			%th Name
+			%th Content
+	%tbody
+		=render :partial=>'review', :collection=>@reviews
+= link_to "Back to movie list", movies_path
+= link_to "Back to More about #{@movie.title}", movie_path(@movie)
+
+

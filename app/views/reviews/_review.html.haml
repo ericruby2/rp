@@ -1,0 +1,15 @@
+- # Single row of all reviews table
+-# debugger
+%p Review by #{review.moviegoer.name}
+%ul#details
+	%li
+		score:
+		= review.potatoes
+	%li
+		comment:
+		= review.comments
+	-#debugger
+= link_to "Edit this Review", edit_movie_review_path(review.movie,review)
+|
+= link_to "Delete this Review" , movie_review_path(review.movie,review), :method => :delete ,data: {confirm: "Are you sure?"}
+|

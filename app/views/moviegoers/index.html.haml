@@ -1,0 +1,12 @@
+-# This file is in app/views/moviegoers/index.html.haml
+%h1 All Moviegoers
+
+%table#moviegoers
+	%thead
+		%tr
+			%th Provider
+			%th Uid
+			%th Name
+	%tbody
+		=render :partial=>'moviegoer', :collection=>@moviegoers
+= link_to "Add new moviegoer" , new_moviegoer_path			

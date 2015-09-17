@@ -1,0 +1,15 @@
+-# THis file is in app/views/moviegoers/show.html.haml
+%h2 Details about #{@moviegoer.title}
+
+%ul#details
+	%li
+		UID:
+		= @moviegoer.uid
+	%li
+		Provider:
+		= @moviegoer.provider
+= link_to "Edit info" , edit_moviegoer_path(@moviegoer)	
+= link_to "Remove Moviegoer" , moviegoer_path(@moviegoer), :method => :delete
+= link_to "Back to moviegoer list", moviegoers_path
+
+

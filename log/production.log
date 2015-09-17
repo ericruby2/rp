@@ -1,0 +1,260 @@
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2015-08-25 17:39:48 +0200
+Started GET "/movies" for 127.0.0.1 at 2015-08-25 17:39:48 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1.7ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:3:in `index'
+
+
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/rp/" for 127.0.0.1 at 2015-09-07 12:04:49 +0200
+
+ActionController::RoutingError (No route matches [GET] "/rp"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Started GET "/rp/" for 127.0.0.1 at 2015-09-07 12:06:00 +0200
+
+ActionController::RoutingError (No route matches [GET] "/rp"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Started GET "/rp/" for 127.0.0.1 at 2015-09-07 12:07:45 +0200
+
+ActionController::RoutingError (No route matches [GET] "/rp"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Started GET "/rp/movies" for 127.0.0.1 at 2015-09-07 12:07:50 +0200
+
+ActionController::RoutingError (No route matches [GET] "/rp/movies"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/movies" for 127.0.0.1 at 2015-09-07 12:21:44 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1.5ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:3:in `index'
+
+
+Started GET "/movies/" for 127.0.0.1 at 2015-09-07 12:21:50 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1.0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:3:in `index'
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-09-07 12:24:52 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0.7ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:3:in `index'
+
+
+Started GET "/application/" for 127.0.0.1 at 2015-09-07 12:32:22 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Started GET "/app" for 127.0.0.1 at 2015-09-07 12:32:26 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/app" for 127.0.0.1 at 2015-09-07 12:34:06 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  railties (3.2.16) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  puma (2.13.4) lib/puma/configuration.rb:78:in `call'
+  puma (2.13.4) lib/puma/server.rb:541:in `handle_request'
+  puma (2.13.4) lib/puma/server.rb:388:in `process_client'
+  puma (2.13.4) lib/puma/server.rb:270:in `block in run'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.13.4) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/movies" for 127.0.0.1 at 2015-09-07 14:06:38 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1.5ms
+
+ActiveRecord::StatementInvalid (Could not find table 'movies'):
+  app/controllers/movies_controller.rb:3:in `index'
+
+

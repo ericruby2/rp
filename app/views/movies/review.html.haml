@@ -1,0 +1,13 @@
+- # Single row of all reviews table
+-# debugger
+%h4 Review by #{review.moviegoer.name}
+%ul#details
+	%li
+		score:
+		= review.potatoes
+	%li
+		comment:
+		= review.comments
+	-#debugger
+	%li= link_to "Edit Review", edit_movie_review_path(review.movie,review)
+

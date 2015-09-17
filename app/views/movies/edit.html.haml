@@ -1,0 +1,13 @@
+-# This file is in app/views/movies/edit.html.haml
+
+%h2 Edit Movie
+
+= form_tag movie_path(@movie), :method => :put do
+
+	= render :partial => 'movie_form'
+	
+	= submit_tag 'Update Movie Info'
+	
+-#= link_to "Back to movie list", movies_path
+
+

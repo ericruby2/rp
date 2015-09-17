@@ -1,0 +1,17 @@
+-# this is the partial
+
+- unless !@moviegoer || @moviegoer.errors.empty?
+	#warning
+		Errors prevented this moviegoer from being #{controller.action_name}d:
+		%ul
+			- @moviegoer.errors.full_messages.each do |error|
+				%li= error
+
+= label :moviegoer, :name, 'Name'
+= text_field :moviegoer, :name 
+	
+= label :moviegoer, :uid, 'Uid'
+= select :moviegoer, :uid
+	
+= label :moviegoer, :provider, 'Provider'
+= select :moviegoer, :provider

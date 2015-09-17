@@ -1,0 +1,35 @@
+-# THis file is in app/views/movies/show.html.haml
+%h2 Details about #{@movie.title}
+
+%ul#details
+	%li
+		Rating:
+		= @movie.rating
+	%li
+		Release Date:
+		= @movie.release_date
+	%li 
+		Description: 
+		= @movie.description
+= link_to "Add Review" , new_movie_review_path(@movie)
+|
+= link_to "Edit Movie Info" , edit_movie_path(@movie)
+|
+
+= link_to "Remove Movie" , movie_path(@movie), :method => :delete
+|
+= link_to "Back to movie list", movies_path
+|
+
+-if @movie.reviews.count > 0
+	%h2 Reviews for #{@movie.title}:
+	=render :partial=>'review', :collection=>@movie.reviews
+-else
+	%h2 No reviews yet for #{@movie.title}
+
+
+%br
+%br
+
+
+

@@ -1,0 +1,15 @@
+-# This file is in app/views/reviews/edit.html.haml
+
+%h2 Edit Review 
+-#debugger
+-# for #{@movie.title}
+
+= form_tag movie_review_path(@review), :method => :put do
+
+	= render :partial => 'review_form'
+	
+	= submit_tag 'Update Review Info'
+	
+-#= link_to "Back to movie list", movies_path
+
+
