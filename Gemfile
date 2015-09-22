@@ -43,6 +43,7 @@ gem 'haml'
 
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem "omniauth-google-oauth2", "~> 0.2.1"
 gem 'puma'
 gem 'sequel'
 gem 'rails-canhaz'
